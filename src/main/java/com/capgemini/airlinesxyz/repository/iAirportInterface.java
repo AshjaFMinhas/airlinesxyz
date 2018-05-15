@@ -1,4 +1,4 @@
 package com.capgemini.airlinesxyz.repository;
 
-public interface iAirportInterface  {
+public interface IAirportInterface {
 }
