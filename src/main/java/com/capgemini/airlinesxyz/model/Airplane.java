@@ -58,9 +58,11 @@ public class Airplane {
         currentFuel = currentFuel + fuelToFill;
 
         if (currentFuel == maximumFuel) {
-            extraFuel(0);
+           return extraFuel(0);
         }
         // Als mijn vliegtuig currentfuel gelijk is aan maximumfuel dan kan er niks bij.
 
+        return fuelToFill;
     }
 }
+
