@@ -54,7 +54,7 @@ public class Airplane {
         this.currentFuel = currentFuel;
     }
 
-    public void extraFuel(int fuelToFill) {
+    public int extraFuel(int fuelToFill) {
         currentFuel = currentFuel + fuelToFill;
 
         if (currentFuel == maximumFuel) {
