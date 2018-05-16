@@ -1,10 +1,19 @@
 package com.capgemini.airlinesxyz.model;
 
-public class Airplane {
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import java.io.Serializable;
 
+public class Airplane implements Serializable {
+
+    @Id
+    @GeneratedValue
     public String id;
+
     public boolean flying = true;
+
     public int currentFuel;
+
     public int maximumFuel = 500000;
 
     public Airplane() {}
